@@ -1,5 +1,7 @@
 # JavaPoetic
 
+![art/java-poetic.png](art/java-poetic.png)
+
 JavaPoet Simple Builder.
 
 Square JavaPoet: https://github.com/square/javapoet
