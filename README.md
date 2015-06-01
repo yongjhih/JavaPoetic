@@ -42,13 +42,20 @@ javaFile.emit(System.out);
 After:
 
 ```java
-JavaFile javaFile = JavaFile.package("com.example.helloworld").class(
-    JavaClass.public().final().name("HelloWorld").method(
-            JavaMethod.public().static().void().name("main").parameter(String[].class, "args").statement(
-                JavaStatement("$T.out.println($S)", System.class, "Hello, JavaPoet!"),
-                JavaStatement("$T.out.println($S)", System.class, "Hello, JavaPoet!")
+JavaFile javaFile = PoeticFile.Of.packages("com.example.helloworld").of(
+            PoeticClass.Of.publics().classes("HelloWorld").method(
+                PoeticMethod.Of.publics().statics().voids().name("main").parameter(String.class, "args").statement(
+                    PoeticStatement.of("$T.out.println($S)", System.class, "Hello, JavaPoet!")
+                )
             )
-        )
-    )
-);
+        );
+
+javaFile.emit(System.out);
+```
+
+
+## Test
+
+```bash
+./gradlew test
 ```
