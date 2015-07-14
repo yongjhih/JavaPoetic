@@ -1,7 +1,5 @@
 # JavaPoetic
 
-[![Join the chat at https://gitter.im/yongjhih/JavaPoetic](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yongjhih/JavaPoetic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 [![Download](https://api.bintray.com/packages/yongjhih/maven/JavaPoetic/images/download.svg) ](https://bintray.com/yongjhih/maven/JavaPoetic/_latestVersion)
 [![JitPack](https://img.shields.io/github/tag/yongjhih/JavaPoetic.svg?label=JitPack)](https://jitpack.io/#yongjhih/JavaPoetic)
 [![Build Status](https://travis-ci.org/yongjhih/JavaPoetic.svg)](https://travis-ci.org/yongjhih/JavaPoetic)
