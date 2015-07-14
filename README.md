@@ -53,6 +53,29 @@ JavaFile javaFile = PoeticFile.Of.packages("com.example.helloworld").of(
 javaFile.emit(System.out);
 ```
 
+## Installation
+
+```gradle
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile 'com.github.yongjhih:javapoetic:-SNAPSHOT'
+}
+```
+
+via jcenter(in progress):
+
+```gradle
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'com.infstory:javapoetic:1.0.0'
+}
+```
 
 ## Test
 
