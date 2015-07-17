@@ -1,5 +1,6 @@
 # JavaPoetic
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-JavaPoetic-green.svg?style=flat)](https://android-arsenal.com/details/1/2153)
 [![Download](https://api.bintray.com/packages/yongjhih/maven/JavaPoetic/images/download.svg) ](https://bintray.com/yongjhih/maven/JavaPoetic/_latestVersion)
 [![JitPack](https://img.shields.io/github/tag/yongjhih/JavaPoetic.svg?label=JitPack)](https://jitpack.io/#yongjhih/JavaPoetic)
 [![Build Status](https://travis-ci.org/yongjhih/JavaPoetic.svg)](https://travis-ci.org/yongjhih/JavaPoetic)
